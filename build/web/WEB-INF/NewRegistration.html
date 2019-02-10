@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title>Updation</title>
+    </head>
+    <body>
+    <form>
+        <table border='2'>
+            <tr>
+                <td><b>Name:</b></td>
+                <td>
+                    <input type='text' name='NAME' size='50' value=' "+name+"'>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Gender:</b></td>
+                <td>
+                    <input type='radio' name='GENDER' value='M' size='50' "+m+">Male<br>
+                    <input type='radio' name='GENDER' value='F' size='50' "+f">Female
+                </td>
+            </tr>
+            <tr>
+                <td><b>Address:</b></td>
+                <td>
+                    <textarea name='ADDRESS' rows='3' cols='37' placeholder=' "+cd.addr+"'></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Membership:</b></td>
+                <td>
+                    <select name='MTYPE'>
+                        <option value='0' "+sel+">----Select----
+                        <option value='1' "+pl+">Platinum
+                        <option value='2' "+go+">Gold
+                        <option value='3' "+si+">Silver
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Salary:</b></td>
+                <td>
+                    <input type='number' name='SALARY' value=' "+cd.sal+"'>
+                </td>
+            </tr>
+            <tr>
+                <td><b>User Name:</b></td>
+                <td>
+                    <input type='text' name='USERNAME' value=' "+cd.uname+"'>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Password:</b></td>
+                <td>
+                    <input type='password' name='PASSWORD' value=' "+cd.upass+"'>
+                </td>
+            </tr>
+            <tr>
+                <td colspan='2'>
+                    <center>
+                        <input type='submit' value='Register'>
+                        <input type='reset' value='Clear'>
+                    </center>
+                </td>
+            </tr>
+        </table>
+        <input type='hidden' name='ID'value='" +cd.id+"'>
+    </form>
+    </body>
+</html>

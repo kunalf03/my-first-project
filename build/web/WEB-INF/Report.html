@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Search</title>
+    </head>
+    <body>
+        <form action='Rep' method='post'>
+            <table border='1'>
+                <tr>
+                    <td>Enter Name:</td>
+                    <td>
+                        <input type='text' name='NAME' size='40'>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Select Membership:</td>
+                    <td>
+                        <select name='MTYPE'>
+                            <option value='0'>---Select---
+                            <option value='1'>Platinum
+                            <option value='2'>Gold
+                            <option value='3'>Silver
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Gender:</td>
+                    <td>
+                        <input type='radio' name='GENDER' size='40' value='M'>Male<br>
+                        <input type='radio' name='GENDER' size='40' value='F'>Female
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan='2'>
+                        <center>
+                            <input type='submit' value='Show'>
+                            <input type='reset' value='clear'>
+                        </center>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
