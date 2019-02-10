@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/F:/programs/servlet/src/java/Servlet/CustomerDetails.java</file>
+            <file>file:/F:/programs/servlet/src/java/Servlet/UpdateDetails.java</file>
+            <file>file:/F:/programs/servlet/web/WEB-INF/hello.html</file>
+            <file>file:/F:/programs/servlet/src/java/Servlet/Menu.java</file>
+            <file>file:/F:/programs/servlet/src/java/Servlet/LogOf.java</file>
+            <file>file:/F:/programs/servlet/web/Main.html</file>
+            <file>file:/F:/programs/servlet/web/WEB-INF/web.xml</file>
+            <file>file:/F:/programs/servlet/src/java/Servlet/MyOracleConnection2.java</file>
+            <file>file:/F:/programs/servlet/src/java/Servlet/InsertIntoDb.java</file>
+            <file>file:/F:/programs/servlet/src/java/Servlet/Report.java</file>
+            <file>file:/F:/programs/servlet/src/java/Servlet/CheckLoginDetails.java</file>
+            <file>file:/F:/programs/servlet/src/java/Servlet/DeleteReport.java</file>
+            <file>file:/F:/programs/servlet/src/java/Servlet/DelRep.java</file>
+            <file>file:/F:/programs/servlet/web/WEB-INF/Report.html</file>
+            <file>file:/F:/programs/servlet/src/java/Servlet/CallUpdateProcedure.java</file>
+            <file>file:/F:/programs/servlet/src/java/Servlet/Login.java</file>
+            <file>file:/F:/programs/servlet/src/java/Servlet/UpdateData.java</file>
+            <file>file:/F:/programs/servlet/web/Login.html</file>
+            <file>file:/F:/programs/servlet/src/java/Servlet/RegistrationReport.java</file>
+            <file>file:/F:/programs/servlet/src/java/Servlet/StoredCustData.java</file>
+            <file>file:/F:/programs/servlet/web/WEB-INF/Alreadyregister.html</file>
+            <file>file:/F:/programs/servlet/web/WEB-INF/NewRegistration.html</file>
+            <file>file:/F:/programs/servlet/src/java/Servlet/ReportUpdate.java</file>
+            <file>file:/F:/programs/servlet/src/java/Servlet/Registration.java</file>
+            <file>file:/F:/programs/servlet/src/java/Servlet/DelDataOfDatabase.java</file>
+            <file>file:/F:/programs/servlet/nbproject/build-impl.xml</file>
+            <file>file:/F:/programs/servlet/src/java/Servlet/CALLUPDATE.java</file>
+            <file>file:/F:/programs/servlet/src/java/Servlet/CustomerUpdate.java</file>
+        </group>
+    </open-files>
+</project-private>

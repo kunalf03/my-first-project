@@ -1,0 +1,167 @@
+<html>
+    <head>
+        <title>New Registration</title>
+        <style type='text/css'>
+            body{
+                font-family: "Arial";
+                margin: 0px;
+            }
+            table,td,th{
+                font-size: 20px;
+                padding: 12px;
+                
+            } 
+            th{
+                width:50px;
+                text-align: left;
+                background-color: #2C4438;
+                color: white;
+                border-radius: 10px;
+            }
+            td{
+                background-color:#BAD1A3;
+                border-radius: 10px;
+            }
+            table{
+                margin:50px auto;   
+                width: 100%;
+            }
+            input[type='text'],input[type='password'],input[type='number']
+            {
+                width: 100%;
+                border: none;
+                height: 100%;
+                font-size: 18px;
+                background-color:#BAD1A3;
+                color: white;
+            }
+            textArea
+            {
+                width: 100%;
+                height: 100%;
+                font-size: 18px;
+                font-family: "Arial";
+                border: none;
+                background-color:#BAD1A3;
+                color: white;
+            }
+            input[type='submit'],input[type='reset']
+            {
+                background-color:#2C4438;
+                color: white;
+                border: none;
+                font-size: 30px;
+                margin-right: 15px;
+                padding: 5px 50px;
+                border-radius: 20px;
+            }
+            input[type='submit']:hover,input[type='reset']:hover
+            {
+                background-color: darkslategrey;
+                
+            }
+            select
+            {
+                border: none;
+                background-color: #BAD1A3;
+                font-size: 18px;
+                font-family: "Arial";
+                color: white
+            }
+            input[type='radio']
+            {
+                color: white;
+                font-family: "Arial";
+                font-size: 18px;
+            }
+            h2{
+                background-color: blue;
+                padding-top: 10px;
+                padding-bottom:0px;
+                color: white;
+                text-align: center;
+            }
+            h5{
+                margin: 0px;
+                background-color: blue;
+                padding-top:0px;
+                padding-bottom: 10px;
+                color: white;
+                text-align: center;
+            }
+            h4{
+                color: white;
+                
+            }
+            
+            
+        </style>               
+    </head>
+    <body>
+        <h2>|| KUNAL SUPER MARKET ||</h2>
+        <h5>Plot No.-13,Shop No.-2,Near Nimbalkar School <br>
+            Manewada-Besa Road,<br>
+            Nagpur-440034
+        </h5>
+    <form>
+        <table>
+            <tr>
+                <th>Name:</th>
+                <td>
+                    <input type='text' name='NAME' size='50'>
+                </td>
+            </tr>
+            <tr>
+                <th>Gender:</th>
+                <td>
+                    <h4><input type='radio' name='GENDER' value='M' size='50'>Male<br>
+                    <input type='radio' name='GENDER' value='F' size='50'>Female</h4>
+                </td>
+            </tr>
+            <tr>
+                <th>Address:</th>
+                <td>
+                    <textarea name='ADDRESS'  ></textarea>
+                </td>
+            </tr>
+            <tr>
+                <th>Membership:</th>
+                <td>
+                    <select name='MTYPE'>
+                        <option value='0'>----Select----
+                        <option value='1'>Platinum
+                        <option value='2'>Gold
+                        <option value='3'>Silver
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>Salary:</th>
+                <td>
+                    <input type='number' name='SALARY'>
+                </td>
+            </tr>
+            <tr>
+                <th>User-Name:</th>
+                <td>
+                    <input type='text' name='USERNAME'>
+                </td>
+            </tr>
+            <tr>
+                <th>Password:</th>
+                <td>
+                    <input type='password' name='PASSWORD'>
+                </td>
+            </tr>
+            <tr >
+                <td colspan='2' >
+                    <center>
+                        <input type='submit' value='Register'>
+                        <input type='reset' value='Clear'>
+                    </center>
+                </td>
+            </tr>
+        </table>
+    </form>
+    </body>
+</html>
